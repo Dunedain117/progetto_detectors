@@ -1,0 +1,10 @@
+^G:\ROBA\UNI\DETECTORS\NEW_ANA\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Roba/Uni/detectors/New_Ana -BG:/Roba/Uni/detectors/New_Ana --check-stamp-file G:/Roba/Uni/detectors/New_Ana/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

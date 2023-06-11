@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="G:\Roba\Uni\detectors\New_Ana\CMakeFiles\d2fe33a035b5d097457466aa98a637ea\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D59F2001-3B4A-39B2-B4E8-0135872F2549}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

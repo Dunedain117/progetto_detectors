@@ -1,0 +1,9 @@
+﻿  Checking Build System
+  CMake is re-running because G:/Roba/Uni/detectors/New_Ana/CMakeFiles/generate.stamp is out-of-date.
+    the file 'G:/Roba/Uni/detectors/New_Ana/run.mac'
+    is newer than 'G:/Roba/Uni/detectors/New_Ana/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- Selecting Windows SDK version 10.0.22000.0 to target Windows 10.0.19044.
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: G:/Roba/Uni/detectors/New_Ana

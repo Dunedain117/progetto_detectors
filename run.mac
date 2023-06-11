@@ -1,0 +1,18 @@
+#
+# Macro file for "AnaEx01.cc"
+# 
+# can be run in batch, without graphic
+# or interactively: Idle> /control/execute run.mac
+#
+#
+# initialize
+#
+#
+#
+#
+/gps/particle proton
+/gps/energy 150 MeV
+/gps/position -15 0 0 cm
+/gps/direction 1 0 0
+/run/beamOn 1
+#

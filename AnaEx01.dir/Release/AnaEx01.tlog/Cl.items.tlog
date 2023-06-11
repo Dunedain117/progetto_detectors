@@ -1,0 +1,9 @@
+G:\Roba\Uni\detectors\New_Ana\AnaEx01.cc;G:\Roba\Uni\detectors\New_Ana\AnaEx01.dir\Release\AnaEx01.obj
+G:\Roba\Uni\detectors\New_Ana\src\ActionInitialization.cc;G:\Roba\Uni\detectors\New_Ana\AnaEx01.dir\Release\ActionInitialization.obj
+G:\Roba\Uni\detectors\New_Ana\src\DetectorConstruction.cc;G:\Roba\Uni\detectors\New_Ana\AnaEx01.dir\Release\DetectorConstruction.obj
+G:\Roba\Uni\detectors\New_Ana\src\DetectorMessenger.cc;G:\Roba\Uni\detectors\New_Ana\AnaEx01.dir\Release\DetectorMessenger.obj
+G:\Roba\Uni\detectors\New_Ana\src\EventAction.cc;G:\Roba\Uni\detectors\New_Ana\AnaEx01.dir\Release\EventAction.obj
+G:\Roba\Uni\detectors\New_Ana\src\HistoManager.cc;G:\Roba\Uni\detectors\New_Ana\AnaEx01.dir\Release\HistoManager.obj
+G:\Roba\Uni\detectors\New_Ana\src\PrimaryGeneratorAction.cc;G:\Roba\Uni\detectors\New_Ana\AnaEx01.dir\Release\PrimaryGeneratorAction.obj
+G:\Roba\Uni\detectors\New_Ana\src\RunAction.cc;G:\Roba\Uni\detectors\New_Ana\AnaEx01.dir\Release\RunAction.obj
+G:\Roba\Uni\detectors\New_Ana\src\SteppingAction.cc;G:\Roba\Uni\detectors\New_Ana\AnaEx01.dir\Release\SteppingAction.obj

@@ -1,0 +1,10 @@
+^G:\ROBA\UNI\DETECTORS\NEW_ANA\CMAKEFILES\D2FE33A035B5D097457466AA98A637EA\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Roba/Uni/detectors/New_Ana -BG:/Roba/Uni/detectors/New_Ana --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file G:/Roba/Uni/detectors/New_Ana/AnaEx01.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,60 @@
+/run/verbose 2
+/run/numberOfThreads 4
+/run/initialize
+/control/execute vis.mac
+/control/verbose 2
+/run/verbose 2
+/vis/open OGL 600x600-0+0
+/vis/sceneHandler/create OGL
+/vis/viewer/create ! ! 600x600-0+0
+/vis/viewer/refresh
+/vis/viewer/set/autoRefresh false
+/vis/verbose errors
+/vis/drawVolume
+/vis/scene/create
+/vis/scene/add/volume world -1 -1 none m 0 0 0 0 0 0
+/vis/sceneHandler/attach
+/vis/scene/add/axes 0 0 0 10 cm
+/vis/scene/notifyHandlers
+/vis/scene/add/trajectories smooth
+/tracking/storeTrajectory 2
+/vis/scene/notifyHandlers
+/vis/modeling/trajectories/create/drawByCharge
+/vis/modeling/trajectories/drawByCharge-0/default/setDrawStepPts true
+/vis/scene/notifyHandlers scene-0
+/vis/modeling/trajectories/drawByCharge-0/default/setStepPtsSize 2
+/vis/scene/notifyHandlers scene-0
+/vis/scene/endOfEventAction accumulate
+/vis/viewer/set/autoRefresh true
+/vis/viewer/refresh
+/vis/verbose warnings
+/run/beamOn 1
+/analysis/h1/getVector
+/analysis/h2/getVector
+/score/create/boxMesh box_mesh1
+/score/mesh/boxSize 15. 15. 15. cm
+/score/drawProjection
+/score/dump
+/score/quantity/energyDeposit
+/score/quantity/energyDeposit edep
+/score/quantity/energyDeposit  box_mesh1
+/score/mesh/nBin
+/score/mesh/nBin 500 1 1
+/score/quantity/energyDeposit  box_mesh1
+/run/beamOn 1
+/run/geometryModified
+/vis/scene/notifyHandlers scene-0
+/analysis/h1/getVector
+/analysis/h2/getVector
+/score/dump
+/control/execute G:\Roba\Uni\detectors\New_Ana\run.mac
+/gps/particle proton
+/gps/energy 150 MeV
+/gps/position -15 0 0 cm
+/gps/direction 1 0 0
+/run/beamOn 1000
+/run/geometryModified
+/vis/scene/notifyHandlers scene-0
+/analysis/h1/getVector
+/analysis/h2/getVector
+/score/dump

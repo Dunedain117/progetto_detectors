@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2539B4FD-11E9-3AC9-9544-F8028FD68582}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>AnaEx01</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\Roba\Uni\detectors\New_Ana\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AnaEx01.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AnaEx01</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\Roba\Uni\detectors\New_Ana\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AnaEx01.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AnaEx01</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\Roba\Uni\detectors\New_Ana\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">AnaEx01.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">AnaEx01</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\Roba\Uni\detectors\New_Ana\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">AnaEx01.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">AnaEx01</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\Roba\Uni\detectors\New_Ana\include;E:\Geant4-11.1\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;G4LIB_BUILD_DLL;PTL_BUILD_DLL;G4UI_USE_WIN32;G4VIS_USE_OPENGLWIN32;G4VIS_USE_TOOLSSG_WINDOWS_GLES;G4VIS_USE_OPENGL;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;G4LIB_BUILD_DLL;PTL_BUILD_DLL;G4UI_USE_WIN32;G4VIS_USE_OPENGLWIN32;G4VIS_USE_TOOLSSG_WINDOWS_GLES;G4VIS_USE_OPENGL;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\Roba\Uni\detectors\New_Ana\include;E:\Geant4-11.1\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Roba\Uni\detectors\New_Ana\include;E:\Geant4-11.1\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>E:\Geant4-11.1\lib\G4Tree.lib;E:\Geant4-11.1\lib\G4FR.lib;E:\Geant4-11.1\lib\G4GMocren.lib;E:\Geant4-11.1\lib\G4visHepRep.lib;E:\Geant4-11.1\lib\G4RayTracer.lib;E:\Geant4-11.1\lib\G4VRML.lib;E:\Geant4-11.1\lib\G4ToolsSG.lib;E:\Geant4-11.1\lib\G4OpenGL.lib;E:\Geant4-11.1\lib\G4vis_management.lib;E:\Geant4-11.1\lib\G4modeling.lib;E:\Geant4-11.1\lib\G4interfaces.lib;E:\Geant4-11.1\lib\G4persistency.lib;E:\Geant4-11.1\lib\G4error_propagation.lib;E:\Geant4-11.1\lib\G4readout.lib;E:\Geant4-11.1\lib\G4physicslists.lib;E:\Geant4-11.1\lib\G4run.lib;E:\Geant4-11.1\lib\G4event.lib;E:\Geant4-11.1\lib\G4tracking.lib;E:\Geant4-11.1\lib\G4parmodels.lib;E:\Geant4-11.1\lib\G4processes.lib;E:\Geant4-11.1\lib\G4digits_hits.lib;E:\Geant4-11.1\lib\G4track.lib;E:\Geant4-11.1\lib\G4particles.lib;E:\Geant4-11.1\lib\G4geometry.lib;E:\Geant4-11.1\lib\G4materials.lib;E:\Geant4-11.1\lib\G4graphics_reps.lib;opengl32.lib;COMCTL32.lib;E:\Geant4-11.1\lib\G4analysis.lib;E:\Geant4-11.1\lib\G4expat.lib;E:\Geant4-11.1\lib\G4zlib.lib;E:\Geant4-11.1\lib\G4intercoms.lib;E:\Geant4-11.1\lib\G4global.lib;E:\Geant4-11.1\lib\G4clhep.lib;E:\Geant4-11.1\lib\G4ptl.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/Roba/Uni/detectors/New_Ana/Debug/AnaEx01.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/Roba/Uni/detectors/New_Ana/Debug/AnaEx01.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\Roba\Uni\detectors\New_Ana\include;E:\Geant4-11.1\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;G4LIB_BUILD_DLL;PTL_BUILD_DLL;G4UI_USE_WIN32;G4VIS_USE_OPENGLWIN32;G4VIS_USE_TOOLSSG_WINDOWS_GLES;G4VIS_USE_OPENGL;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;G4LIB_BUILD_DLL;PTL_BUILD_DLL;G4UI_USE_WIN32;G4VIS_USE_OPENGLWIN32;G4VIS_USE_TOOLSSG_WINDOWS_GLES;G4VIS_USE_OPENGL;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\Roba\Uni\detectors\New_Ana\include;E:\Geant4-11.1\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Roba\Uni\detectors\New_Ana\include;E:\Geant4-11.1\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>E:\Geant4-11.1\lib\G4Tree.lib;E:\Geant4-11.1\lib\G4FR.lib;E:\Geant4-11.1\lib\G4GMocren.lib;E:\Geant4-11.1\lib\G4visHepRep.lib;E:\Geant4-11.1\lib\G4RayTracer.lib;E:\Geant4-11.1\lib\G4VRML.lib;E:\Geant4-11.1\lib\G4ToolsSG.lib;E:\Geant4-11.1\lib\G4OpenGL.lib;E:\Geant4-11.1\lib\G4vis_management.lib;E:\Geant4-11.1\lib\G4modeling.lib;E:\Geant4-11.1\lib\G4interfaces.lib;E:\Geant4-11.1\lib\G4persistency.lib;E:\Geant4-11.1\lib\G4error_propagation.lib;E:\Geant4-11.1\lib\G4readout.lib;E:\Geant4-11.1\lib\G4physicslists.lib;E:\Geant4-11.1\lib\G4run.lib;E:\Geant4-11.1\lib\G4event.lib;E:\Geant4-11.1\lib\G4tracking.lib;E:\Geant4-11.1\lib\G4parmodels.lib;E:\Geant4-11.1\lib\G4processes.lib;E:\Geant4-11.1\lib\G4digits_hits.lib;E:\Geant4-11.1\lib\G4track.lib;E:\Geant4-11.1\lib\G4particles.lib;E:\Geant4-11.1\lib\G4geometry.lib;E:\Geant4-11.1\lib\G4materials.lib;E:\Geant4-11.1\lib\G4graphics_reps.lib;opengl32.lib;COMCTL32.lib;E:\Geant4-11.1\lib\G4analysis.lib;E:\Geant4-11.1\lib\G4expat.lib;E:\Geant4-11.1\lib\G4zlib.lib;E:\Geant4-11.1\lib\G4intercoms.lib;E:\Geant4-11.1\lib\G4global.lib;E:\Geant4-11.1\lib\G4clhep.lib;E:\Geant4-11.1\lib\G4ptl.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/Roba/Uni/detectors/New_Ana/Release/AnaEx01.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/Roba/Uni/detectors/New_Ana/Release/AnaEx01.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\Roba\Uni\detectors\New_Ana\include;E:\Geant4-11.1\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;G4LIB_BUILD_DLL;PTL_BUILD_DLL;G4UI_USE_WIN32;G4VIS_USE_OPENGLWIN32;G4VIS_USE_TOOLSSG_WINDOWS_GLES;G4VIS_USE_OPENGL;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;G4LIB_BUILD_DLL;PTL_BUILD_DLL;G4UI_USE_WIN32;G4VIS_USE_OPENGLWIN32;G4VIS_USE_TOOLSSG_WINDOWS_GLES;G4VIS_USE_OPENGL;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\Roba\Uni\detectors\New_Ana\include;E:\Geant4-11.1\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Roba\Uni\detectors\New_Ana\include;E:\Geant4-11.1\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>E:\Geant4-11.1\lib\G4Tree.lib;E:\Geant4-11.1\lib\G4FR.lib;E:\Geant4-11.1\lib\G4GMocren.lib;E:\Geant4-11.1\lib\G4visHepRep.lib;E:\Geant4-11.1\lib\G4RayTracer.lib;E:\Geant4-11.1\lib\G4VRML.lib;E:\Geant4-11.1\lib\G4ToolsSG.lib;E:\Geant4-11.1\lib\G4OpenGL.lib;E:\Geant4-11.1\lib\G4vis_management.lib;E:\Geant4-11.1\lib\G4modeling.lib;E:\Geant4-11.1\lib\G4interfaces.lib;E:\Geant4-11.1\lib\G4persistency.lib;E:\Geant4-11.1\lib\G4error_propagation.lib;E:\Geant4-11.1\lib\G4readout.lib;E:\Geant4-11.1\lib\G4physicslists.lib;E:\Geant4-11.1\lib\G4run.lib;E:\Geant4-11.1\lib\G4event.lib;E:\Geant4-11.1\lib\G4tracking.lib;E:\Geant4-11.1\lib\G4parmodels.lib;E:\Geant4-11.1\lib\G4processes.lib;E:\Geant4-11.1\lib\G4digits_hits.lib;E:\Geant4-11.1\lib\G4track.lib;E:\Geant4-11.1\lib\G4particles.lib;E:\Geant4-11.1\lib\G4geometry.lib;E:\Geant4-11.1\lib\G4materials.lib;E:\Geant4-11.1\lib\G4graphics_reps.lib;opengl32.lib;COMCTL32.lib;E:\Geant4-11.1\lib\G4analysis.lib;E:\Geant4-11.1\lib\G4expat.lib;E:\Geant4-11.1\lib\G4zlib.lib;E:\Geant4-11.1\lib\G4intercoms.lib;E:\Geant4-11.1\lib\G4global.lib;E:\Geant4-11.1\lib\G4clhep.lib;E:\Geant4-11.1\lib\G4ptl.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/Roba/Uni/detectors/New_Ana/MinSizeRel/AnaEx01.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/Roba/Uni/detectors/New_Ana/MinSizeRel/AnaEx01.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\Roba\Uni\detectors\New_Ana\include;E:\Geant4-11.1\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;G4LIB_BUILD_DLL;PTL_BUILD_DLL;G4UI_USE_WIN32;G4VIS_USE_OPENGLWIN32;G4VIS_USE_TOOLSSG_WINDOWS_GLES;G4VIS_USE_OPENGL;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;G4LIB_BUILD_DLL;PTL_BUILD_DLL;G4UI_USE_WIN32;G4VIS_USE_OPENGLWIN32;G4VIS_USE_TOOLSSG_WINDOWS_GLES;G4VIS_USE_OPENGL;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\Roba\Uni\detectors\New_Ana\include;E:\Geant4-11.1\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Roba\Uni\detectors\New_Ana\include;E:\Geant4-11.1\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>E:\Geant4-11.1\lib\G4Tree.lib;E:\Geant4-11.1\lib\G4FR.lib;E:\Geant4-11.1\lib\G4GMocren.lib;E:\Geant4-11.1\lib\G4visHepRep.lib;E:\Geant4-11.1\lib\G4RayTracer.lib;E:\Geant4-11.1\lib\G4VRML.lib;E:\Geant4-11.1\lib\G4ToolsSG.lib;E:\Geant4-11.1\lib\G4OpenGL.lib;E:\Geant4-11.1\lib\G4vis_management.lib;E:\Geant4-11.1\lib\G4modeling.lib;E:\Geant4-11.1\lib\G4interfaces.lib;E:\Geant4-11.1\lib\G4persistency.lib;E:\Geant4-11.1\lib\G4error_propagation.lib;E:\Geant4-11.1\lib\G4readout.lib;E:\Geant4-11.1\lib\G4physicslists.lib;E:\Geant4-11.1\lib\G4run.lib;E:\Geant4-11.1\lib\G4event.lib;E:\Geant4-11.1\lib\G4tracking.lib;E:\Geant4-11.1\lib\G4parmodels.lib;E:\Geant4-11.1\lib\G4processes.lib;E:\Geant4-11.1\lib\G4digits_hits.lib;E:\Geant4-11.1\lib\G4track.lib;E:\Geant4-11.1\lib\G4particles.lib;E:\Geant4-11.1\lib\G4geometry.lib;E:\Geant4-11.1\lib\G4materials.lib;E:\Geant4-11.1\lib\G4graphics_reps.lib;opengl32.lib;COMCTL32.lib;E:\Geant4-11.1\lib\G4analysis.lib;E:\Geant4-11.1\lib\G4expat.lib;E:\Geant4-11.1\lib\G4zlib.lib;E:\Geant4-11.1\lib\G4intercoms.lib;E:\Geant4-11.1\lib\G4global.lib;E:\Geant4-11.1\lib\G4clhep.lib;E:\Geant4-11.1\lib\G4ptl.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/Roba/Uni/detectors/New_Ana/RelWithDebInfo/AnaEx01.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/Roba/Uni/detectors/New_Ana/RelWithDebInfo/AnaEx01.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\Roba\Uni\detectors\New_Ana\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule G:/Roba/Uni/detectors/New_Ana/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Roba/Uni/detectors/New_Ana -BG:/Roba/Uni/detectors/New_Ana --check-stamp-file G:/Roba/Uni/detectors/New_Ana/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;E:\Geant4-11.1\lib\cmake\Geant4\Geant4Config.cmake;E:\Geant4-11.1\lib\cmake\Geant4\Geant4ConfigVersion.cmake;E:\Geant4-11.1\lib\cmake\Geant4\Geant4LibraryDepends-release.cmake;E:\Geant4-11.1\lib\cmake\Geant4\Geant4LibraryDepends.cmake;E:\Geant4-11.1\lib\cmake\Geant4\Geant4PackageCache.cmake;E:\Geant4-11.1\lib\cmake\Geant4\Modules\IntelCompileFeatures.cmake;E:\Geant4-11.1\lib\cmake\Geant4\Modules\MSVCCompileFeatures.cmake;E:\Geant4-11.1\lib\cmake\Geant4\PTL\PTLConfig.cmake;E:\Geant4-11.1\lib\cmake\Geant4\PTL\PTLConfigVersion.cmake;E:\Geant4-11.1\lib\cmake\Geant4\PTL\PTLTargets-release.cmake;E:\Geant4-11.1\lib\cmake\Geant4\PTL\PTLTargets.cmake;E:\Geant4-11.1\lib\cmake\Geant4\UseGeant4.cmake;G:\Roba\Uni\detectors\New_Ana\CMakeFiles\3.23.1\CMakeCCompiler.cmake;G:\Roba\Uni\detectors\New_Ana\CMakeFiles\3.23.1\CMakeCXXCompiler.cmake;G:\Roba\Uni\detectors\New_Ana\CMakeFiles\3.23.1\CMakeRCCompiler.cmake;G:\Roba\Uni\detectors\New_Ana\CMakeFiles\3.23.1\CMakeSystem.cmake;G:\Roba\Uni\detectors\New_Ana\cosmicMuons.mac;G:\Roba\Uni\detectors\New_Ana\gamma.mac;G:\Roba\Uni\detectors\New_Ana\init_vis.mac;G:\Roba\Uni\detectors\New_Ana\run.mac;G:\Roba\Uni\detectors\New_Ana\vis.mac;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\Roba\Uni\detectors\New_Ana\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule G:/Roba/Uni/detectors/New_Ana/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Roba/Uni/detectors/New_Ana -BG:/Roba/Uni/detectors/New_Ana --check-stamp-file G:/Roba/Uni/detectors/New_Ana/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;E:\Geant4-11.1\lib\cmake\Geant4\Geant4Config.cmake;E:\Geant4-11.1\lib\cmake\Geant4\Geant4ConfigVersion.cmake;E:\Geant4-11.1\lib\cmake\Geant4\Geant4LibraryDepends-release.cmake;E:\Geant4-11.1\lib\cmake\Geant4\Geant4LibraryDepends.cmake;E:\Geant4-11.1\lib\cmake\Geant4\Geant4PackageCache.cmake;E:\Geant4-11.1\lib\cmake\Geant4\Modules\IntelCompileFeatures.cmake;E:\Geant4-11.1\lib\cmake\Geant4\Modules\MSVCCompileFeatures.cmake;E:\Geant4-11.1\lib\cmake\Geant4\PTL\PTLConfig.cmake;E:\Geant4-11.1\lib\cmake\Geant4\PTL\PTLConfigVersion.cmake;E:\Geant4-11.1\lib\cmake\Geant4\PTL\PTLTargets-release.cmake;E:\Geant4-11.1\lib\cmake\Geant4\PTL\PTLTargets.cmake;E:\Geant4-11.1\lib\cmake\Geant4\UseGeant4.cmake;G:\Roba\Uni\detectors\New_Ana\CMakeFiles\3.23.1\CMakeCCompiler.cmake;G:\Roba\Uni\detectors\New_Ana\CMakeFiles\3.23.1\CMakeCXXCompiler.cmake;G:\Roba\Uni\detectors\New_Ana\CMakeFiles\3.23.1\CMakeRCCompiler.cmake;G:\Roba\Uni\detectors\New_Ana\CMakeFiles\3.23.1\CMakeSystem.cmake;G:\Roba\Uni\detectors\New_Ana\cosmicMuons.mac;G:\Roba\Uni\detectors\New_Ana\gamma.mac;G:\Roba\Uni\detectors\New_Ana\init_vis.mac;G:\Roba\Uni\detectors\New_Ana\run.mac;G:\Roba\Uni\detectors\New_Ana\vis.mac;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\Roba\Uni\detectors\New_Ana\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule G:/Roba/Uni/detectors/New_Ana/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Roba/Uni/detectors/New_Ana -BG:/Roba/Uni/detectors/New_Ana --check-stamp-file G:/Roba/Uni/detectors/New_Ana/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;E:\Geant4-11.1\lib\cmake\Geant4\Geant4Config.cmake;E:\Geant4-11.1\lib\cmake\Geant4\Geant4ConfigVersion.cmake;E:\Geant4-11.1\lib\cmake\Geant4\Geant4LibraryDepends-release.cmake;E:\Geant4-11.1\lib\cmake\Geant4\Geant4LibraryDepends.cmake;E:\Geant4-11.1\lib\cmake\Geant4\Geant4PackageCache.cmake;E:\Geant4-11.1\lib\cmake\Geant4\Modules\IntelCompileFeatures.cmake;E:\Geant4-11.1\lib\cmake\Geant4\Modules\MSVCCompileFeatures.cmake;E:\Geant4-11.1\lib\cmake\Geant4\PTL\PTLConfig.cmake;E:\Geant4-11.1\lib\cmake\Geant4\PTL\PTLConfigVersion.cmake;E:\Geant4-11.1\lib\cmake\Geant4\PTL\PTLTargets-release.cmake;E:\Geant4-11.1\lib\cmake\Geant4\PTL\PTLTargets.cmake;E:\Geant4-11.1\lib\cmake\Geant4\UseGeant4.cmake;G:\Roba\Uni\detectors\New_Ana\CMakeFiles\3.23.1\CMakeCCompiler.cmake;G:\Roba\Uni\detectors\New_Ana\CMakeFiles\3.23.1\CMakeCXXCompiler.cmake;G:\Roba\Uni\detectors\New_Ana\CMakeFiles\3.23.1\CMakeRCCompiler.cmake;G:\Roba\Uni\detectors\New_Ana\CMakeFiles\3.23.1\CMakeSystem.cmake;G:\Roba\Uni\detectors\New_Ana\cosmicMuons.mac;G:\Roba\Uni\detectors\New_Ana\gamma.mac;G:\Roba\Uni\detectors\New_Ana\init_vis.mac;G:\Roba\Uni\detectors\New_Ana\run.mac;G:\Roba\Uni\detectors\New_Ana\vis.mac;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\Roba\Uni\detectors\New_Ana\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule G:/Roba/Uni/detectors/New_Ana/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Roba/Uni/detectors/New_Ana -BG:/Roba/Uni/detectors/New_Ana --check-stamp-file G:/Roba/Uni/detectors/New_Ana/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;E:\Geant4-11.1\lib\cmake\Geant4\Geant4Config.cmake;E:\Geant4-11.1\lib\cmake\Geant4\Geant4ConfigVersion.cmake;E:\Geant4-11.1\lib\cmake\Geant4\Geant4LibraryDepends-release.cmake;E:\Geant4-11.1\lib\cmake\Geant4\Geant4LibraryDepends.cmake;E:\Geant4-11.1\lib\cmake\Geant4\Geant4PackageCache.cmake;E:\Geant4-11.1\lib\cmake\Geant4\Modules\IntelCompileFeatures.cmake;E:\Geant4-11.1\lib\cmake\Geant4\Modules\MSVCCompileFeatures.cmake;E:\Geant4-11.1\lib\cmake\Geant4\PTL\PTLConfig.cmake;E:\Geant4-11.1\lib\cmake\Geant4\PTL\PTLConfigVersion.cmake;E:\Geant4-11.1\lib\cmake\Geant4\PTL\PTLTargets-release.cmake;E:\Geant4-11.1\lib\cmake\Geant4\PTL\PTLTargets.cmake;E:\Geant4-11.1\lib\cmake\Geant4\UseGeant4.cmake;G:\Roba\Uni\detectors\New_Ana\CMakeFiles\3.23.1\CMakeCCompiler.cmake;G:\Roba\Uni\detectors\New_Ana\CMakeFiles\3.23.1\CMakeCXXCompiler.cmake;G:\Roba\Uni\detectors\New_Ana\CMakeFiles\3.23.1\CMakeRCCompiler.cmake;G:\Roba\Uni\detectors\New_Ana\CMakeFiles\3.23.1\CMakeSystem.cmake;G:\Roba\Uni\detectors\New_Ana\cosmicMuons.mac;G:\Roba\Uni\detectors\New_Ana\gamma.mac;G:\Roba\Uni\detectors\New_Ana\init_vis.mac;G:\Roba\Uni\detectors\New_Ana\run.mac;G:\Roba\Uni\detectors\New_Ana\vis.mac;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\Roba\Uni\detectors\New_Ana\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="G:\Roba\Uni\detectors\New_Ana\AnaEx01.cc" />
+    <ClCompile Include="G:\Roba\Uni\detectors\New_Ana\src\ActionInitialization.cc" />
+    <ClCompile Include="G:\Roba\Uni\detectors\New_Ana\src\DetectorConstruction.cc" />
+    <ClCompile Include="G:\Roba\Uni\detectors\New_Ana\src\DetectorMessenger.cc" />
+    <ClCompile Include="G:\Roba\Uni\detectors\New_Ana\src\EventAction.cc" />
+    <ClCompile Include="G:\Roba\Uni\detectors\New_Ana\src\HistoManager.cc" />
+    <ClCompile Include="G:\Roba\Uni\detectors\New_Ana\src\PrimaryGeneratorAction.cc" />
+    <ClCompile Include="G:\Roba\Uni\detectors\New_Ana\src\RunAction.cc" />
+    <ClCompile Include="G:\Roba\Uni\detectors\New_Ana\src\SteppingAction.cc" />
+    <ClInclude Include="G:\Roba\Uni\detectors\New_Ana\include\ActionInitialization.hh" />
+    <ClInclude Include="G:\Roba\Uni\detectors\New_Ana\include\DetectorConstruction.hh" />
+    <ClInclude Include="G:\Roba\Uni\detectors\New_Ana\include\DetectorMessenger.hh" />
+    <ClInclude Include="G:\Roba\Uni\detectors\New_Ana\include\EventAction.hh" />
+    <ClInclude Include="G:\Roba\Uni\detectors\New_Ana\include\HistoManager.hh" />
+    <ClInclude Include="G:\Roba\Uni\detectors\New_Ana\include\PrimaryGeneratorAction.hh" />
+    <ClInclude Include="G:\Roba\Uni\detectors\New_Ana\include\RunAction.hh" />
+    <ClInclude Include="G:\Roba\Uni\detectors\New_Ana\include\SteppingAction.hh" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:\Roba\Uni\detectors\New_Ana\ZERO_CHECK.vcxproj">
+      <Project>{B2014609-51A0-3FF8-8422-1D455FBB5921}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

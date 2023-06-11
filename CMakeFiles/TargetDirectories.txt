@@ -1,0 +1,4 @@
+G:/Roba/Uni/detectors/New_Ana/CMakeFiles/AnaEx01.dir
+G:/Roba/Uni/detectors/New_Ana/CMakeFiles/INSTALL.dir
+G:/Roba/Uni/detectors/New_Ana/CMakeFiles/ALL_BUILD.dir
+G:/Roba/Uni/detectors/New_Ana/CMakeFiles/ZERO_CHECK.dir
